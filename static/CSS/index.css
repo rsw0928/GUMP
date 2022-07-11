@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height : 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+#wrapper{
+    height:auto;
+    min-height:100%;
+}
+
+#menu {
+    width:100%;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:10vh;
+    margin-bottom:10vh;
+}
+
+#archive{
+    height:40vh;
+}
+
+#shop{
+    height:40vh;
+}
+
+footer {
+    width: 100vw;
+    height: auto;
+    position:relative;
+    transform:translateY(-100%);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1vw;
+    border-top: 1.5px solid black;
+    font-weight:550;
+}
+
+
+#company {
+    height: 5vh;
+    margin:1.5vw 5vw 1.5vw 5vw;
+}
+
+#owner {
+    height: 5vh;
+    margin:1.5vw 5vw 1.5vw 1vw;
+
+}
+
+#license {
+    height: 5vh;
+    margin:1.5vw 5vw 1.5vw 1vw;
+}
+
+#contact{
+    height: 5vh;
+    margin:1.5vw 2vw 1.5vw 1vw;
+    margin-left:auto;
+    display:flex;
+    align-items: center;
+}
