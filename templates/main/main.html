@@ -1,48 +1,36 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../CSS/index.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>GUMP</title>
 </head>
 <body>
-    <div id="wrapper">
-        <div id="menu">
-            <a href="./archive.html" target="_self"><img id="archive" src="../img/main_archive.jpg"> </a>     
-            <a href="./shop.html" target="_self"> <img id="shop" src="../img/main_shop.jpg"> </a>     
+    <div class="container-fluid row" >
+      <div class="row" style="float: none; margin:100 auto;">
+        <div class="col" style="float: none; margin:100 auto;">
+            <a href="./archive.html" target="_self"><img id="archive" src="{% static 'img/main_archive.jpg' %}"> </a>
         </div>
-    </div>    
-    <footer>
-        <div id="company">
-            <ul>
-                <li>Company</li>
-                <li>검프</li>
-            </ul>
+        <div class="col" style="float: none; margin:100 auto;">
+            <a href="./shop.html" target="_self"> <img id="shop" src="{% static 'img/main_shop.jpg' %}"> </a>
         </div>
-        <div id="owner">
-            <ul>
-                <li>Owner</li>
-                <li>유승연</li>
-            </ul>
-        </div>
-        <div id="license">
-            <ul>
-                <li>Business License</li>
-                <li>667-32-01064</li>
-            </ul>
-        </div>
-        <div id="contact">
-            <ul>
-                <li>contact</li>
-                <li>+82)10-5422-5637</li>
-                <li>gggumppp@gmail.com</li>
-                <li>@ffforeestgumpppp</li>
-            </ul>
-        </div>
-    </footer>
-    
-
+      </div>
+    </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 GUMP</p>
+      </footer>
+    </div>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </body>
 </html>
