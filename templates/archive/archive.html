@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <title>GUMP Archive</title>
+    </head>
+<body>
+    <div class="container" style="display:flex; text-align:center;">
+      <div class="row">
+        <div class="col-md-6" style="margin:0; padding:0;">
+            <a href="/archive/archive.html" target="_self"><img id="archive" src="{% static 'img/main_archive.jpg' %}" style="width:100%; height:auto;"></a>
+        </div>
+        <div class="col-md-6" style="margin:0; padding:0;">
+            <a href="/shop/shop.html" target="_self"><img id="shop" src="{% static 'img/main_shop.jpg' %}" style="width:100%; height:auto;"></a>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>
